@@ -11,9 +11,8 @@ import (
 //RootCmd is the root command
 var RootCmd = &cobra.Command{
 	Use:   "Jump",
-	Short: "An example of cobra",
-	Long: `This application shows how to create modern CLI 
-applications in go using Cobra CLI library`,
+	Short: "A Jumpbox Utility",
+	Long: `This application allows you to list a set of jump hosts and easily connect to them.`,
 }
 
 var hosts map[string]string
